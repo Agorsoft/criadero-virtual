@@ -1,0 +1,63 @@
+.criadero-virtual-metabox .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.criadero-virtual-metabox .half {
+    width: 48%;
+    margin-right: 2%;
+}
+
+.criadero-virtual-metabox .half-checkbox {
+    width: 48%;
+    margin-right: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.criadero-virtual-metabox .half-checkbox label {
+    margin-right: 10px;
+}
+
+.criadero-virtual-metabox .full {
+    width: 100%;
+    clear: both;
+}
+
+.criadero-virtual-metabox label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.criadero-virtual-metabox input[type="text"],
+.criadero-virtual-metabox input[type="date"],
+.criadero-virtual-metabox select,
+.criadero-virtual-metabox textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#galeria_preview .gallery-item {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#galeria_preview img {
+    width: 100px;
+    height: auto;
+}
+
+#galeria_preview .remove-image-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 2px 5px;
+}
